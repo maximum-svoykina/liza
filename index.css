@@ -1,0 +1,94 @@
+.menu {
+    background: rgb(255, 211, 130);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+    font-size: 25px;
+    padding: 15px;
+    border-bottom: 2px solid black;
+
+}
+
+.menu-left {
+    font-weight: bold;
+}
+
+.menu-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu-right a:hover {
+    color: black;
+}
+
+
+        body {
+            margin: 0;
+            background-image: url(img/2.jpg);
+            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .email {
+            display: inline-block;
+            margin-top: 80px;
+        }
+
+        .search {
+            margin: auto;
+            width: fit-content;
+        }
+
+        .banner {
+            text-align: center;
+            width: 100%;
+            height: 600px;
+            background-size: cover;
+            background-image: url(img/humster.gif);
+        }
+
+        .banner-title {
+            display: inline-block;
+            margin-top: 300px;
+            font-size: 50px;
+            font-weight: 900;
+        }
+    .main-cards{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-header{
+        text-align: center;
+    }
+
+    .humster-card{
+        border: 1px solid black;
+        width: 25%;
+        min-width: 250px;
+        padding: 15px;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 10px 10px 50px 10px rgb(247, 162, 78,1);
+    }
+    .card-button{
+        color: black !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 15px;
+        margin: 15px;
+        display: block;
+    }
+    .card-button:hover{
+background-image: linear-gradient(0,rgb(226, 68, 94)20%,purple 80%);
+    }
+.footer{
+    padding: 100px 15px;
+    background: linear-gradient(0,rgb(236, 233, 41)20%,rgb(235, 129, 8) 80%);
+}
